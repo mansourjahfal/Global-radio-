@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#loadingIndicator {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+#map {
+    height: 85vh; /* Adjusted height */
+    width: 100%;
+}
+
+#audioPlayer { /* Replaces 'audio' selector */
+    width: 90%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+    /* Removed fixed positioning to flow with document */
+}
+
+#playbackInfo {
+    min-height: 20px; /* Reserve space */
+    font-style: italic;
+    text-align: center; /* Added for consistency, as per index.html style */
+}
